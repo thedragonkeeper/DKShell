@@ -1,0 +1,17 @@
+{
+    "name": "dkshell.dragonkeeper",
+    "description": "description of DKShell",
+    "architecture": "@CLICK_ARCH@",
+    "title": "DKShell",
+    "hooks": {
+        "DKShell": {
+            "apparmor": "DKShell/DKShell.apparmor",
+            "desktop":  "DKShell/DKShell.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Dragon Keeper <dragonkeeper@nixheads.co.uk>",
+    "framework" : "ubuntu-sdk-15.04"
+}
+
+

@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=DKShell
+Exec=qmlscene $@ DKShell/Main.qml
+Icon=DKShell/DKShell.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
