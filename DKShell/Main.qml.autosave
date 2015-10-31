@@ -53,12 +53,12 @@ MainView {
 
             TextField {
                 id: ipinputfield
-                placeholderText: qstr("IpAddress")
+                placeholderText: i18n.tr("IpAddress")
             }
 
             TextField {
                 id: userinputfield
-                placeholderText: qstr("User")
+                placeholderText: i18n.tr("User")
             }
 
            Row {
@@ -97,11 +97,11 @@ MainView {
 
            }
 
-           Command {
+ /*          myCommand {
                 id: process
                 onNewLine: console.log(line)
                 Component.onCompleted: run("ls", "-al")
-            }
+            }*/
     }
 }
 }

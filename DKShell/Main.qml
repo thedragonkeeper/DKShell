@@ -37,12 +37,6 @@ MainView {
             }
         }
 
-        Command {
-             id: process
-             onNewLine: console.log(line)
-             Component.onCompleted: run("ls", "-al")
-         }
-
         Column {
             spacing: units.gu(1)
             anchors {
@@ -59,12 +53,12 @@ MainView {
 
             TextField {
                 id: ipinputfield
-                placeholderText: qstr("IpAddress")
+                placeholderText: i18n.tr("IpAddress")
             }
 
             TextField {
                 id: userinputfield
-                placeholderText: qstr("User")
+                placeholderText: i18n.tr("User")
             }
 
            Row {
@@ -99,10 +93,16 @@ MainView {
 
                onClicked: {
                    myType.helloWorld = i18n.tr("dmesg(cpp)")
+                   onNewLine(console.log(line))
                }
 
            }
 
+ /*          myCommand {
+                id: process
+                onNewLine: console.log(line)
+                Component.onCompleted: run("ls", "-al")
+            }*/
     }
 }
 }
