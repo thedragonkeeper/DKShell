@@ -23,7 +23,9 @@ MainView {
 
     width: units.gu(100)
     height: units.gu(75)
-
+    backgroundColor: "#333333"
+    headerColor: "#333333"
+    footerColor: "#333332"
     Page {
         title: i18n.tr("DKShell")
 
@@ -31,7 +33,7 @@ MainView {
             id: myType
 
             Component.onCompleted: {
-                myType.helloWorld = i18n.tr("Hello world..")
+                myType.helloWorld = i18n.tr("ssh")
             }
         }
 
@@ -49,14 +51,23 @@ MainView {
                 text: myType.helloWorld
             }
 
+            TextField {
+                id: ipinputfield
+                placeholderText: qstr("IpAddress")
+            }
+            TextField {
+                id: userinputfield
+                placeholderText: qstr("User")
+            }
+
             Button {
                 objectName: "button"
                 width: parent.width
 
-                text: i18n.tr("Tap me!")
+                text: i18n.tr("Connect")
 
                 onClicked: {
-                    myType.helloWorld = i18n.tr("..from Cpp Backend")
+                    myType.helloWorld = i18n.tr("ssh (cpp)")
                 }
             }
         }

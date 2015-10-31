@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-31 00:22+0000\n"
+"POT-Creation-Date: 2015-10-31 05:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,18 +17,18 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/dragonkeeper/DKShell/DKShell/Main.qml:28
+#: /home/dragonkeeper/DKShell/DKShell/Main.qml:30
 msgid "DKShell"
 msgstr ""
 
-#: /home/dragonkeeper/DKShell/DKShell/Main.qml:34
-msgid "Hello world.."
+#: /home/dragonkeeper/DKShell/DKShell/Main.qml:36
+msgid "ssh"
 msgstr ""
 
-#: /home/dragonkeeper/DKShell/DKShell/Main.qml:56
-msgid "Tap me!"
+#: /home/dragonkeeper/DKShell/DKShell/Main.qml:67
+msgid "Connect"
 msgstr ""
 
-#: /home/dragonkeeper/DKShell/DKShell/Main.qml:59
-msgid "..from Cpp Backend"
+#: /home/dragonkeeper/DKShell/DKShell/Main.qml:70
+msgid "ssh (cpp)"
 msgstr ""
