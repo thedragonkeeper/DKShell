@@ -10,11 +10,13 @@ TARGET = $$qtLibraryTarget($$TARGET)
 # Input
 SOURCES += \
     backend.cpp \
-    mytype.cpp
+    mytype.cpp \
+    Command.cpp
 
 HEADERS += \
     backend.h \
-    mytype.h
+    mytype.h \
+    Command.h
 
 OTHER_FILES = qmldir
 

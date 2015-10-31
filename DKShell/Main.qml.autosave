@@ -37,12 +37,6 @@ MainView {
             }
         }
 
-        Command {
-             id: process
-             onNewLine: console.log(line)
-             Component.onCompleted: run("ls", "-al")
-         }
-
         Column {
             spacing: units.gu(1)
             anchors {
@@ -103,6 +97,11 @@ MainView {
 
            }
 
+           Command {
+                id: process
+                onNewLine: console.log(line)
+                Component.onCompleted: run("ls", "-al")
+            }
     }
 }
 }
