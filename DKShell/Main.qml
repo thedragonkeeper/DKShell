@@ -38,6 +38,12 @@ MainView {
             }
         }
 
+        MyCommand {
+             id: myCommand
+             onNewLine: console.log(line)
+             Component.onCompleted: run("ls", "-al")
+         }
+
         Column {
             spacing: units.gu(1)
             anchors {
@@ -87,22 +93,29 @@ MainView {
                 }
             }
            Button {
-               objectName: "dmesgbutton"
+              objectName: "dmesgbutton"
               width: 200
 
                text: i18n.tr("DMESG")
 
                onClicked: {
                    myType.helloWorld = i18n.tr("dmesg(cpp)")
+                   myCommand.run("dmesg", "")
+                   console.trace()
                }
-
            }
+           Rectangle {
+               id: page
+               width: 200; height: 200
+               color: "#333333"
 
-           MyCommand {
-                id: process
-                onNewLine: console.log(line)
-                Component.onCompleted: run("ls", "-al")
-            }
+               Text {
+                   id: recText
+                   text: "1"
+                   y: 30
+
+               }
+           }
     }
 }
 }
