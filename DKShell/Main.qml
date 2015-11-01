@@ -1,6 +1,7 @@
 import QtQuick 2.0
 import Ubuntu.Components 1.1
 import DKShell 1.0
+
 /*!
     \brief MainView with a Label and Button elements.
 */
@@ -93,16 +94,15 @@ MainView {
 
                onClicked: {
                    myType.helloWorld = i18n.tr("dmesg(cpp)")
-                   onNewLine(console.log(line))
                }
 
            }
 
- /*          myCommand {
+           MyCommand {
                 id: process
                 onNewLine: console.log(line)
                 Component.onCompleted: run("ls", "-al")
-            }*/
+            }
     }
 }
 }

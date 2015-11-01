@@ -5,12 +5,13 @@
 #include <QProcess>
 #include <QPointer>
 
-class myCommand : public QObject
+
+class MyCommand : public QObject
 {
     Q_OBJECT
 
 public:
-    explicit myCommand(QObject *parent = 0);
+    explicit MyCommand(QObject *parent = 0);
 
 signals:
     void newLine(const QString &line);

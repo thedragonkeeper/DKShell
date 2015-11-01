@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-10-31 12:51+0000\n"
+"POT-Creation-Date: 2015-11-01 01:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,42 +17,42 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /home/dragonkeeper/DKShell/DKShell/Main.qml:30
+#: /home/dragonkeeper/DKShell/DKShell/Main.qml:31
 msgid "DKShell"
 msgstr ""
 
-#: /home/dragonkeeper/DKShell/DKShell/Main.qml:36
+#: /home/dragonkeeper/DKShell/DKShell/Main.qml:37
 msgid "ssh"
 msgstr ""
 
-#: /home/dragonkeeper/DKShell/DKShell/Main.qml:56
+#: /home/dragonkeeper/DKShell/DKShell/Main.qml:57
 msgid "IpAddress"
 msgstr ""
 
-#: /home/dragonkeeper/DKShell/DKShell/Main.qml:61
+#: /home/dragonkeeper/DKShell/DKShell/Main.qml:62
 msgid "User"
 msgstr ""
 
-#: /home/dragonkeeper/DKShell/DKShell/Main.qml:70
+#: /home/dragonkeeper/DKShell/DKShell/Main.qml:71
 msgid "SSH"
 msgstr ""
 
-#: /home/dragonkeeper/DKShell/DKShell/Main.qml:73
+#: /home/dragonkeeper/DKShell/DKShell/Main.qml:74
 msgid "ssh (cpp)"
 msgstr ""
 
-#: /home/dragonkeeper/DKShell/DKShell/Main.qml:81
+#: /home/dragonkeeper/DKShell/DKShell/Main.qml:82
 msgid "SSHFS"
 msgstr ""
 
-#: /home/dragonkeeper/DKShell/DKShell/Main.qml:84
+#: /home/dragonkeeper/DKShell/DKShell/Main.qml:85
 msgid "sshfs (cpp)"
 msgstr ""
 
-#: /home/dragonkeeper/DKShell/DKShell/Main.qml:92
+#: /home/dragonkeeper/DKShell/DKShell/Main.qml:93
 msgid "DMESG"
 msgstr ""
 
-#: /home/dragonkeeper/DKShell/DKShell/Main.qml:95
+#: /home/dragonkeeper/DKShell/DKShell/Main.qml:96
 msgid "dmesg(cpp)"
 msgstr ""
